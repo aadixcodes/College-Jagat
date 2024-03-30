@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, NavLink } from 'react-router-dom'
 import "../style/navbar1.scss";
 
 const navbar1 = () => {
@@ -6,9 +7,9 @@ const navbar1 = () => {
     <>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             College Jagat
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,70 +24,70 @@ const navbar1 = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/">
+                <Link className="nav-link" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/newsfeed">
+                <Link className="nav-link" to="/newsfeed">
                   Latest News
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contactus">
+                <Link className="nav-link" to="/contactus">
                   Contact
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  to="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Menu
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="/academiccalender">
+                    <Link className="dropdown-item" to="/academiccalender">
                       Academic Calender
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/busboard">
+                    <Link className="dropdown-item" to="/busboard">
                       Bus Board
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/newsfeed">
+                    <Link className="dropdown-item" to="/newsfeed">
                       News Feed
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/events">
+                    <Link className="dropdown-item" to="/events">
                       Clubs And Events
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/lostandfound">
+                    <Link className="dropdown-item" to="/lostandfound">
                       Lost And Found
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/attendancecalc">
+                    <Link className="dropdown-item" to="/attendancecalc">
                       Calculate Attendance
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/communitychat">
+                    <Link className="dropdown-item" to="/communitychat">
                       Community Chat
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/feedbackform">
+                    <Link className="dropdown-item" to="/feedbackform">
                       Feedback
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
