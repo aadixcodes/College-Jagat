@@ -164,3 +164,22 @@ span i{
         margin-top: 25px;
     }
 }
+
+@media (max-width: 550px){
+    .navbar-brand{
+        font-size: 7.5vw;
+        margin-left: 1rem;
+    }
+
+    .navbar-toggler{
+        width: 15vw;
+        height: 2.5rem;
+        margin-right: 1rem;
+        border: 1.5px solid white;
+        transition: 0.2s;
+    }
+    span i{
+        font-size: 2rem;
+        color: white;
+    }
+}
