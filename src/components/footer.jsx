@@ -43,7 +43,7 @@ const footer = () => {
                     <div className="col-xl-4 col-lg-4 mb-50">
                         <div className="footer-widget">
                             <div className="footer-logo">
-                                <a href="index.html">COLLEGE JAGAT</a>
+                                <Link to="index.html">COLLEGE JAGAT</Link>
                             </div>
                             <div className="footer-text">
                                 <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
@@ -51,9 +51,9 @@ const footer = () => {
                             </div>
                             <div className="footer-social-icon">
                                 <span>Follow us</span>
-                                <a href="#"><i className='bx bxl-instagram'></i></a>
-                                <a href="#"><i className='bx bxl-github'></i></a>
-                                <a href="#"><i className='bx bxl-twitter'></i></a>
+                                <Link to="#"><i className='bx bxl-instagram'></i></Link>
+                                <Link to="#"><i className='bx bxl-github'></i></Link>
+                                <Link to="#"><i className='bx bxl-twitter'></i></Link>
                             </div>
                         </div>
                     </div>
@@ -63,16 +63,16 @@ const footer = () => {
                                 <h3>Useful Links</h3>
                             </div>
                             <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/academiccalender">Academic Calender</a></li>
-                                <li><a href="/newsfeed">News Feed</a></li>
-                                <li><a href="/busboard">Bus Board</a></li>
-                                <li><a href="/events">Clubs And Events</a></li>
-                                <li><a href="/lostandfound">Lost And Found</a></li>
-                                <li><a href="/attendancecalc">Calculate Attendance</a></li>
-                                <li><a href="/feedbackform">Feedback Form</a></li>
-                                <li><a href="/communitychat">Community Chat</a></li>
-                                <li><a href="/contactus">Contact Us</a></li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/academiccalender">Academic Calender</Link></li>
+                                <li><Link to="/newsfeed">News Feed</Link></li>
+                                <li><Link to="/busboard">Bus Board</Link></li>
+                                <li><Link to="/events">Clubs And Events</Link></li>
+                                <li><Link to="/lostandfound">Lost And Found</Link></li>
+                                <li><Link to="/attendancecalc">Calculate Attendance</Link></li>
+                                <li><Link to="/feedbackform">Feedback Form</Link></li>
+                                <li><Link to="/communitychat">Community Chat</Link></li>
+                                <li><Link to="/contactus">Contact Us</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -106,10 +106,10 @@ const footer = () => {
                     <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                         <div className="footer-menu">
                             <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/newsfeed">News Feed</a></li>
-                                <li><a href="/feedbackform">Feedback</a></li>
-                                <li><a href="/contactus">Contact us</a></li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/newsfeed">News Feed</Link></li>
+                                <li><Link to="/feedbackform">Feedback</Link></li>
+                                <li><Link to="/contactus">Contact us</Link></li>
                             </ul>
                         </div>
                     </div>
