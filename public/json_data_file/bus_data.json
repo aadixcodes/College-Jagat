@@ -28,27 +28,21 @@
         "bus_route": "indore to ujjain naka",
         "first_shift_time": "08:00 AM",
         "second_shift_time": "10:00 PM"
-    },
+    }
     {
         "bus_no": "15",
-        "bus_route": "indore to sanavad",
-        "first_shift_time": "08:00 AM",
-        "second_shift_time": "10:00 PM"
-    },
-    {
-        "bus_no": "16",
         "bus_route": "indore to tejaji nagar",
         "first_shift_time": "08:00 AM",
         "second_shift_time": "10:00 PM"
     },
     {
-        "bus_no": "17",
+        "bus_no": "16",
         "bus_route": "indore to bhavarkuaa",
         "first_shift_time": "08:00 AM",
         "second_shift_time": "10:00 PM"
     },
     {
-        "bus_no": "18",
+        "bus_no": "17",
         "bus_route": "indore to vijay nagar",
         "first_shift_time": "08:00 AM",
         "second_shift_time": "10:00 PM"
