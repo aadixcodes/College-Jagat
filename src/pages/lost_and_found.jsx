@@ -94,7 +94,7 @@ const lost_and_found = () => {
             </select>
             <label htmlFor="phoneNumber">Phone Number:</label>
             <input type="text" id="phoneNumber" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} />
-            <label htmlFor="details">Lost/Found Project Detail:</label>
+            <label htmlFor="details">Lost/Found Product Detail:</label>
             <input type="text" id="details" name="details" value={formData.details} onChange={handleChange} />
             <label htmlFor="place">Lost/Found Place:</label>
             <select id="place" name="place" value={formData.place} onChange={handleChange}>
