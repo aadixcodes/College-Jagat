@@ -1,0 +1,26 @@
+[
+    {
+        "bus_no": "10",
+        "bus_route": "indore to ujjain",
+        "first_shift_time": "08:00 AM",
+        "second_shift_time": "10:00 PM"
+    },
+    {
+        "bus_no": "11",
+        "bus_route": "indore to dewas",
+        "first_shift_time": "08:00 AM",
+        "second_shift_time": "10:00 PM"
+    },
+    {
+        "bus_no": "12",
+        "bus_route": "indore to ujjain",
+        "first_shift_time": "08:00 AM",
+        "second_shift_time": "10:00 PM"
+    },
+    {
+        "bus_no": "13",
+        "bus_route": "indore to ujjain",
+        "first_shift_time": "08:00 AM",
+        "second_shift_time": "10:00 PM"
+    }
+]

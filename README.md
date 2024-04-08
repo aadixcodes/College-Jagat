@@ -1,26 +1,8 @@
+# React + Vite
 
-# College Jagat
-Welcome to College Jagat! This project aims to provide a platform for students to access various information related to their college activities, events, academic calendar, and news. This README will guide you through the functionalities and setup of the project.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Features
-Event Details: Stay updated with all the upcoming events happening within the college campus.
+Currently, two official plugins are available:
 
-Academic Calendar: Access the academic calendar to keep track of important dates, deadlines, and holidays.
-
-College News: Get the latest news and announcements from the college administration.
-
-User-Friendly Interface: The frontend is designed to be intuitive and easy to navigate, ensuring a seamless user experience.
-
-# Technologies Used
-Frontend Development: The frontend of this project is developed using React.js, providing a dynamic and interactive user interface.
-
-Hosting: The project can be hosted on vercel
-
-live website link :- [svvv-college-jagat.vercel.app](https://svvv-college-jagat.vercel.app)
-
-
-# Support
-For any queries or issues, please contact developer.aditya09@gmail.com.
-
-Thank you for using College Jagat! Happy exploring! 🎓✨
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
