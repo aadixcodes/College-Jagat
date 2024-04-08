@@ -12,11 +12,11 @@ College News: Get the latest news and announcements from the college administrat
 User-Friendly Interface: The frontend is designed to be intuitive and easy to navigate, ensuring a seamless user experience.
 
 # Technologies Used
-Frontend Development: The frontend of this project is developed using HTML, CSS, and JavaScript.
+Frontend Development: The frontend of this project is developed using React.js, providing a dynamic and interactive user interface.
 
-Framework: No specific frontend framework is used to keep the project lightweight and easily customizable.
+Hosting: The project can be hosted on vercel
 
-Hosting: The project can be hosted on any web server capable of serving static content.
+live website link :- svvv-college-jagat.vercel.app
 
 
 # Support
