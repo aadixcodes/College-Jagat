@@ -16,7 +16,7 @@ Frontend Development: The frontend of this project is developed using React.js, 
 
 Hosting: The project can be hosted on vercel
 
-live website link :- svvv-college-jagat.vercel.app
+live website link :- [svvv-college-jagat.vercel.app](https://svvv-college-jagat.vercel.app)
 
 
 # Support
