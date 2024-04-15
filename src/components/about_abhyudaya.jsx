@@ -29,7 +29,7 @@ const about_abhyudaya = () => {
     <div className="about-abhyudaya-heading">
         <div className="aa-line"></div>
         <div className="aa-head">
-            <div className="aa-head-h1"><h1>About Abhyudaya</h1><i class='bx bx-link-external'><a href="https://www.instagram.com/abhyudayacodingclub/"></a></i></div>
+           <div className="aa-head-h1"><h1>About Abhyudaya</h1><a href="https://www.instagram.com/abhyudayacodingclub/"><i class='bx bx-link-external'></i></a></div>
             <div className="aa-head-p">Official coding club of SVVV</div>
         </div>
     </div>
