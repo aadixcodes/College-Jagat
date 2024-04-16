@@ -32,7 +32,7 @@ const footer = () => {
                         <i className='bx bx-envelope-open'></i>
                             <div className="cta-text">
                                 <h4>Mail us</h4>
-                                <span>mail@info.com</span>
+                                <span>Abhyudaya@svvv.edu.in</span>
                             </div>
                         </div>
                     </div>
