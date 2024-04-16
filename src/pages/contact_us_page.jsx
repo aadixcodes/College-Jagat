@@ -49,7 +49,7 @@ const contact_us_page = () => {
             
             <div class="contact-info-content">
               <h4>Email</h4>
-             <p>mail@gmail.com</p>
+             <p>Abhyudaya@svvv.edu.in</p>
             </div>
           </div>
         </div>
